@@ -65,4 +65,16 @@
     height: 350px;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .main {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .main {
+    height: 450px;
+  }
+}
 </style>

@@ -84,6 +84,26 @@
 }
 
 @media screen and (max-width: 450px) {
-  
+  .bosh {
+    width: 80%;
+    height: 380px;
+    .comments {
+      width: 150%;
+      justify-content: space-between;
+      .comment {
+        width: 50%;
+        .h1 {
+          font-size: 20px;
+        }
+        img {
+          width: 64px;
+          height: 64px;
+        }
+        .name {
+          font-size: 12px;
+        }
+      }
+    }
+  }
 }
 </style>

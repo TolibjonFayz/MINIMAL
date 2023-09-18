@@ -50,4 +50,14 @@
     height: 400px;
   }
 }
+
+@media screen and (max-width: 415px) {
+  .making-main {
+    width: 60%;
+    font-size: 30px !important;
+    font-weight: 300;
+    line-height: 40px !important;
+    text-transform: uppercase;
+  }
+}
 </style>

@@ -191,4 +191,17 @@
     }
   }
 }
+
+@media screen and (max-width: 415px) {
+  .main {
+    width: 100%;
+    height: 1500px;
+    .bosh {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+  }
+}
 </style>
