@@ -134,4 +134,27 @@
     height: 900px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .main {
+    width: 100%;
+    height: 900px;
+  }
+
+  .members {
+    gap: 10px;
+    img {
+      width: 150px;
+    }
+    .name {
+      font-size: 12px;
+    }
+    .job {
+      font-size: 10px;
+    }
+    .social {
+      gap: 10px;
+    }
+  }
+}
 </style>

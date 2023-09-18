@@ -131,4 +131,17 @@
     line-height: 22px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .bosh {
+    margin-top: 50px;
+    margin-bottom: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 </style>

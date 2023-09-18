@@ -107,4 +107,31 @@ import image1 from "../../public/logo.png";
     }
   }
 }
+
+@media screen and (max-width: 460px) {
+  .navbar {
+    gap: 5px;
+    .logo {
+      gap: 5px;
+
+      .image {
+        width: 40px;
+        height: 40px;
+      }
+      .minimal {
+        font-size: 15px;
+      }
+    }
+    .texts {
+      gap: 10px;
+      h2 {
+        font-size: 8px;
+        &:hover {
+          transition: all 0.3s linear;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
 </style>

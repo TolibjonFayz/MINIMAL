@@ -165,4 +165,30 @@
     height: 1000px;
   }
 }
+
+@media screen and (max-width: 590px) {
+  .main {
+    width: 100%;
+    height: 1000px;
+    .bosh {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .main {
+    width: 100%;
+    height: 1100px;
+    .bosh {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+  }
+}
 </style>

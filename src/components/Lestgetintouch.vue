@@ -140,4 +140,48 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .main {
+    height: 400px;
+    .bosh {
+      gap: 10px;
+      .title {
+        font-size: 20px;
+        margin-top: 30px;
+      }
+      .box {
+        gap: 20px;
+      }
+    }
+  }
+  .in {
+    i {
+      font-size: 30px;
+    }
+    .what {
+      font-size: 12px;
+    }
+    .street {
+      font-size: 12px;
+    }
+    .home {
+      font-size: 12px;
+      margin-bottom: -20px;
+    }
+    .adress {
+      font-size: 12px;
+    }
+    .social {
+      display: flex;
+      flex-direction: column;
+      i {
+        font-size: 10px;
+      }
+      h2 {
+        font-size: 12px;
+      }
+    }
+  }
+}
 </style>
