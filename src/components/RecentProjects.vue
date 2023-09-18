@@ -60,6 +60,7 @@
       </div>
     </div>
   </div>
+  <br />
 </template>
 
 <script></script>
@@ -149,6 +150,19 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main {
+    height: 1200px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .main {
+    width: 100%;
+    height: 1000px;
   }
 }
 </style>

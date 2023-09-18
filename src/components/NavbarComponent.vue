@@ -48,6 +48,7 @@ import image1 from "../../public/logo.png";
     }
   }
   .texts {
+    width: auto;
     display: flex;
     height: 45px;
     padding: 23px 0px 0px 34px;
@@ -65,6 +66,43 @@ import image1 from "../../public/logo.png";
       &:hover {
         transition: all 0.3s linear;
         cursor: pointer;
+      }
+    }
+  }
+}
+@media screen and (max-width: 960px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 106px;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .navbar {
+    gap: 10px;
+    .logo {
+      gap: 10px;
+
+      .image {
+        width: 50px;
+        height: 50px;
+      }
+      .minimal {
+        font-size: 18px;
+      }
+    }
+    .texts {
+      gap: 15px;
+      h2 {
+        font-size: 10px;
+        &:hover {
+          transition: all 0.3s linear;
+          cursor: pointer;
+        }
       }
     }
   }

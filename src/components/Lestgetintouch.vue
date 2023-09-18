@@ -41,8 +41,11 @@
   width: 100%;
   height: 500px;
   background: #7ec4bd;
+  justify-content: center;
+  align-items: center;
   background-image: url("../../public/layer.png");
   .bosh {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +71,6 @@
       widows: 100%;
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
       justify-content: space-between;
       gap: 50px;
     }

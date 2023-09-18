@@ -60,4 +60,9 @@
     }
   }
 }
+@media screen and (max-width: 685px) {
+  .main {
+    height: 350px;
+  }
+}
 </style>

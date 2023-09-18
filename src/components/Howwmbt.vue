@@ -121,4 +121,16 @@
     }
   }
 }
+
+@media screen and (max-width: 685px) {
+  .main {
+    .bosh {
+      width: 80%;
+      height: 487px;
+      .blogs {
+        gap: 30px;
+      }
+    }
+  }
+}
 </style>

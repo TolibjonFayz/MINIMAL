@@ -44,4 +44,10 @@
     line-height: 20px;
   }
 }
+
+@media screen and (max-width: 685px) {
+  .making {
+    height: 400px;
+  }
+}
 </style>

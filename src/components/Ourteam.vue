@@ -127,4 +127,11 @@
     }
   }
 }
+
+@media screen and (max-width: 960px) {
+  .main {
+    width: 100%;
+    height: 900px;
+  }
+}
 </style>
